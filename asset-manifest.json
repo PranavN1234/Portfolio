@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.bbdb0478.css",
+    "main.js": "/Portfolio/static/js/main.34a91f75.js",
+    "static/media/photomine (1).jpeg": "/Portfolio/static/media/photomine (1).a6c7d864a4e3e2eabdd2.jpeg",
+    "static/media/myimage.png": "/Portfolio/static/media/myimage.b8f5ab8898b5b4da42d4.png",
+    "static/media/Project1.png": "/Portfolio/static/media/Project1.c0592e84e84d9f463665.png",
+    "static/media/handshake.png": "/Portfolio/static/media/handshake.040982a3b7975592bee1.png",
+    "static/media/bannerimg.png": "/Portfolio/static/media/bannerimg.229252872cf117a828c4.png",
+    "static/media/transparent.png": "/Portfolio/static/media/transparent.bbebbb5c8b4c6df668f0.png",
+    "static/media/pni-logo.png": "/Portfolio/static/media/pni-logo.6c50352a058b9d468ae2.png",
+    "static/media/Resnet.png": "/Portfolio/static/media/Resnet.7ff2043bbac0132c7515.png",
+    "static/media/egonetwork.png": "/Portfolio/static/media/egonetwork.c3f9138031dc0858c3d0.png",
+    "static/media/logo-white.png": "/Portfolio/static/media/logo-white.85bf18295482cd474cd5.png",
+    "static/media/elevator.jpeg": "/Portfolio/static/media/elevator.436b4ae539ea42cdc190.jpeg",
+    "static/media/agile.jpeg": "/Portfolio/static/media/agile.14ccb9760e6235a1400c.jpeg",
+    "static/media/transparentwhite.png": "/Portfolio/static/media/transparentwhite.b4c21757d6eaf073187b.png",
+    "static/media/placeholder.jpeg": "/Portfolio/static/media/placeholder.e83e00e04a871eaf1317.jpeg",
+    "index.html": "/Portfolio/index.html",
+    "main.bbdb0478.css.map": "/Portfolio/static/css/main.bbdb0478.css.map",
+    "main.34a91f75.js.map": "/Portfolio/static/js/main.34a91f75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbdb0478.css",
+    "static/js/main.34a91f75.js"
+  ]
+}
