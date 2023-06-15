@@ -11,10 +11,11 @@ const Project = () => {
         </div>
 
         <div className='grid grid-cols-2 gap-14 w-full max-w-screen-lg'>
-            <ProjectCard title="South Indian Sales" imgsrc={project1} desc="An E-commerce site made for the sale of Pickles and household items" isGlobe={true} />
-            <ProjectCard title="Elevator Control System" imgsrc={elevator} desc="A Complex Elevator control system designed in C and HiFive Microcontroller" isGlobe={true}/>
-            <ProjectCard title="Modified ResNet" imgsrc={Resnet} desc="Modified the ResNet model to under 5 million parameters for image classification in the CIFAR 10 dataset" isGlobe={true}/>
-            <ProjectCard title="Placeholder title" imgsrc={placeholder} desc="Project 4 not decided yet" isGlobe={false}/>
+        <ProjectCard title="Portfolio" imgsrc={placeholder} desc="Created and deployed a complex portfolio website with ReactJS and Tailwind CSS" isGlobe={true} link="https://pranavn1234.github.io/Portfolio"/>
+            <ProjectCard title="South Indian Sales" imgsrc={project1} desc="An E-commerce site made for the sale of Pickles and household items" isGlobe={false} link=""/>
+            <ProjectCard title="Elevator Control System" imgsrc={elevator} desc="A Complex Elevator control system designed in C and HiFive Microcontroller" isGlobe={false} link=""/>
+            <ProjectCard title="Modified ResNet" imgsrc={Resnet} desc="Modified the ResNet model to under 5 million parameters for image classification in the CIFAR 10 dataset" isGlobe={false} link=""/>
+            
         </div>
         
     </section>
