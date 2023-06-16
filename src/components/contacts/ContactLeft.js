@@ -1,6 +1,7 @@
 import React from 'react'
 import {SiInstagram, SiLinkedin} from 'react-icons/si'
 import {handshake} from '../../assets'
+import {Link} from 'react-router-dom'
 const ContactLeft = () => {
   return (
     <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne">
@@ -16,12 +17,18 @@ const ContactLeft = () => {
                 <div className="my-2 flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+            <Link to={"https://www.instagram.com/pranav.dd_/"}>
+                <span className="bannerIcon">
             <SiInstagram/>
           </span>
-          <span className="bannerIcon">
+            </Link>
+
+            <Link to={"https://www.linkedin.com/in/pranav-iyer-906256170/"}>
+                <span className="bannerIcon">
             <SiLinkedin/>
           </span>
+            </Link>
+
         </div>
       </div>
               </div>

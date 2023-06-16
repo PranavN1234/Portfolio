@@ -15,4 +15,9 @@ import ego from './egonetwork.png'
 import vm from './virtualm.jpeg'
 import handwritten from './handwritten.png'
 import handshake from './handshake.png'
-export { dummyimage, myphoto, myimage, bannerimg, transparent, logo, logowhite, whiteback, project1,Resnet, placeholder, elevator, agile, ego, vm, handwritten, handshake};
+import farmer from './farmer.avif'
+import chess from './moneychess.avif'
+import portfolio from './portfolioweb.jpeg'
+export { dummyimage, myphoto, myimage, bannerimg, transparent, logo, logowhite, whiteback, project1,Resnet, placeholder, elevator, agile, ego, vm, handwritten, handshake,
+farmer, chess, portfolio
+};

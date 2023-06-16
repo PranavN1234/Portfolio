@@ -2,6 +2,7 @@ import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import {FaGithubAlt, FaInstagram, FaLinkedin, FaJava} from 'react-icons/fa'
 import {DiJava} from 'react-icons/di'
+import {Link} from 'react-router-dom'
 import {SiPython, SiReact, SiGit, SiMysql,SiFlask} from 'react-icons/si'
 function LeftBanner() {
     const [text] = useTypewriter({
@@ -27,11 +28,15 @@ function LeftBanner() {
                     Find me in
                 </h2>
                 <div className='flex gap-4'>
-                    <span className='bannerIcon'><FaInstagram/></span>
-    
-                    <span className='bannerIcon'><FaGithubAlt/></span>
-
-                    <span className='bannerIcon'><FaLinkedin/></span>
+                    <Link to={"https://www.instagram.com/pranav.dd_/"}>
+                        <span className='bannerIcon'><FaInstagram/></span>
+                    </Link>
+                    <Link to={"https://github.com/PranavN1234?tab=repositories"}>
+                        <span className='bannerIcon'><FaGithubAlt/></span>
+                    </Link>
+                    <Link to={"https://www.linkedin.com/in/pranav-iyer-906256170/"}>
+                        <span className='bannerIcon'><FaLinkedin/></span>
+                    </Link>
                 </div>
                 </div>
                 <div>
