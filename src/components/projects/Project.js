@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../layouts/Title'
 import ProjectCard from './ProjectCard'
-import {project1, Resnet, elevator, farmer, portfolio, chess} from '../../assets/index'
+import {project1, Resnet, elevator, farmer, portfolio, chess, scorepred} from '../../assets/index'
 
 const Project = () => {
   return (
@@ -11,8 +11,9 @@ const Project = () => {
         </div>
 
         <div className='grid grid-cols-3 gap-10 w-full max-w-screen-lg'>
-        <ProjectCard title="Portfolio" imgsrc={portfolio} desc="Created and deployed a complex portfolio website with ReactJS and Tailwind CSS" isGlobe={true} gitlink="https://github.com/PranavN1234/Portfolio" link="https://pranavn1234.github.io/Portfolio"/>
+        <ProjectCard title="Portfolio" imgsrc={portfolio} desc="Created and deployed a complex portfolio website with ReactJS and Tailwind CSS. The website comes with a personal Chatbot made using OpenAI" isGlobe={true} gitlink="https://github.com/PranavN1234/Portfolio" link="https://pranavn1234.github.io/Portfolio"/>
             <ProjectCard title="South Indian Sales" imgsrc={project1} desc="An E-commerce site made using ReactJs and Firebase for the sale of Pickles and household items" isGlobe={false} gitlink="https://github.com/PranavN1234/PallakadSales" link=""/>
+            <ProjectCard title="NYU Fantasy" imgsrc={scorepred} desc="An app that allows you to play with friends and predict scores with friends and win trophies. It was made on Django and ReactJS" isGlobe={false} gitlink="https://github.com/PranavN1234/ScorePredictor-API" link=""/>
             <ProjectCard title="Pay to Play" imgsrc={chess} desc="A React Native application in TypeScript that illustrates the use of paywalls" isGlobe={false} gitlink="https://github.com/PranavN1234/PlayWithMe/tree/main" link=""/>
             <ProjectCard title="Elevator Control System" imgsrc={elevator} desc="A Complex Elevator control system designed in C and HiFive Microcontroller" isGlobe={false} gitlink="https://github.com/PranavN1234/Elevator-Control-System" link=""/>
             <ProjectCard title="Modified ResNet" imgsrc={Resnet} desc="Modified the ResNet model to under 5 million parameters for image classification in the CIFAR 10 dataset" gitlink="https://github.com/PranavN1234/Modified-ResNet" isGlobe={false} link=""/>
