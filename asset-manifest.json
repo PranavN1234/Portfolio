@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.bbdb0478.css",
-    "main.js": "/Portfolio/static/js/main.5460e15b.js",
+    "main.js": "/Portfolio/static/js/main.fb0f63de.js",
     "static/media/photomine (1).jpeg": "/Portfolio/static/media/photomine (1).a6c7d864a4e3e2eabdd2.jpeg",
     "static/media/myimage.png": "/Portfolio/static/media/myimage.b8f5ab8898b5b4da42d4.png",
     "static/media/Project1.png": "/Portfolio/static/media/Project1.c0592e84e84d9f463665.png",
@@ -10,6 +10,7 @@
     "static/media/bannerimg.png": "/Portfolio/static/media/bannerimg.229252872cf117a828c4.png",
     "static/media/transparent.png": "/Portfolio/static/media/transparent.bbebbb5c8b4c6df668f0.png",
     "static/media/pni-logo.png": "/Portfolio/static/media/pni-logo.6c50352a058b9d468ae2.png",
+    "static/media/scorepred.png": "/Portfolio/static/media/scorepred.1a11d959b883b1f8ca81.png",
     "static/media/Resnet.png": "/Portfolio/static/media/Resnet.7ff2043bbac0132c7515.png",
     "static/media/egonetwork.png": "/Portfolio/static/media/egonetwork.c3f9138031dc0858c3d0.png",
     "static/media/logo-white.png": "/Portfolio/static/media/logo-white.85bf18295482cd474cd5.png",
@@ -21,10 +22,10 @@
     "static/media/farmer.avif": "/Portfolio/static/media/farmer.4938e0c6ad2f29b79557.avif",
     "index.html": "/Portfolio/index.html",
     "main.bbdb0478.css.map": "/Portfolio/static/css/main.bbdb0478.css.map",
-    "main.5460e15b.js.map": "/Portfolio/static/js/main.5460e15b.js.map"
+    "main.fb0f63de.js.map": "/Portfolio/static/js/main.fb0f63de.js.map"
   },
   "entrypoints": [
     "static/css/main.bbdb0478.css",
-    "static/js/main.5460e15b.js"
+    "static/js/main.fb0f63de.js"
   ]
 }
