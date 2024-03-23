@@ -25,12 +25,14 @@ function Banner() {
     };
 
     const imageContainerStyle = isMobile ? {
+        position: 'relative', // Ensure gradient is positioned within this container
         width: '100%',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
     } : {
+        position: 'relative', // Ensure gradient is positioned within this container
         width: '50%',
         display: 'flex',
         justifyContent: 'center',
@@ -38,21 +40,26 @@ function Banner() {
     };
 
     const imageSizeStyle = isMobile ? {
-        width: '80vw',
-        height: 'auto',
+        width: '80vw', // Responsive width on mobile devices
+        height: 'auto', // Maintain aspect ratio
         zIndex: 10,
-        maxWidth: '100%',
+        maxWidth: '100%', // Ensure it doesn't exceed container's width
+        maxHeight: '100vh', // Prevent image from being taller than the viewport
     } : {
-        width: '500px',
-        height: '680px',
+        width: '500px', // Fixed width for non-mobile devices
+        height: 'auto', // Adjust height automatically to maintain aspect ratio
         zIndex: 10,
+        maxWidth: '100%', // Prevent exceeding container's width
+        maxHeight: '680px', // Limit height to prevent overly tall images
     };
+
+
 
     const gradientStyle = {
         position: 'absolute',
-        bottom: '0',
+        bottom: '0', // Make sure this aligns the gradient at the bottom of the imageContainer
         width: isMobile ? '50vw' : '350px',
-        height: isMobile ? 'auto' : '300px',
+        height: isMobile ? '100px' : '300px', // Consider setting a fixed height for mobile as well
         maxWidth: '100%',
         background: 'linear-gradient(to right, #1e2024, #202327)',
         boxShadow: 'your-shadow-style-here', // Replace with your actual shadow style
