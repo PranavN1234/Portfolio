@@ -20,6 +20,7 @@ import chess from './moneychess.avif'
 import portfolio from './portfolioweb.jpeg'
 import scorepred from './scorepred.png'
 import eatalone from './eatalone.png'
+import nba from './nba.png'
 export { dummyimage, myphoto, myimage, bannerimg, transparent, logo, logowhite, whiteback, project1,Resnet, placeholder, elevator, agile, ego, vm, handwritten, handshake,
-farmer, chess, portfolio, scorepred, eatalone
+farmer, chess, portfolio, scorepred, eatalone, nba
 };
