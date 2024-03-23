@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.bbdb0478.css",
-    "main.js": "/Portfolio/static/js/main.fb0f63de.js",
+    "main.css": "/Portfolio/static/css/main.34184551.css",
+    "main.js": "/Portfolio/static/js/main.da167509.js",
     "static/media/photomine (1).jpeg": "/Portfolio/static/media/photomine (1).a6c7d864a4e3e2eabdd2.jpeg",
     "static/media/myimage.png": "/Portfolio/static/media/myimage.b8f5ab8898b5b4da42d4.png",
     "static/media/Project1.png": "/Portfolio/static/media/Project1.c0592e84e84d9f463665.png",
+    "static/media/eatalone.png": "/Portfolio/static/media/eatalone.506f18c8f4d05afa869b.png",
     "static/media/portfolioweb.jpeg": "/Portfolio/static/media/portfolioweb.31e7b8d4a9554106768f.jpeg",
     "static/media/handshake.png": "/Portfolio/static/media/handshake.040982a3b7975592bee1.png",
     "static/media/bannerimg.png": "/Portfolio/static/media/bannerimg.229252872cf117a828c4.png",
@@ -21,11 +22,11 @@
     "static/media/placeholder.jpeg": "/Portfolio/static/media/placeholder.e83e00e04a871eaf1317.jpeg",
     "static/media/farmer.avif": "/Portfolio/static/media/farmer.4938e0c6ad2f29b79557.avif",
     "index.html": "/Portfolio/index.html",
-    "main.bbdb0478.css.map": "/Portfolio/static/css/main.bbdb0478.css.map",
-    "main.fb0f63de.js.map": "/Portfolio/static/js/main.fb0f63de.js.map"
+    "main.34184551.css.map": "/Portfolio/static/css/main.34184551.css.map",
+    "main.da167509.js.map": "/Portfolio/static/js/main.da167509.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbdb0478.css",
-    "static/js/main.fb0f63de.js"
+    "static/css/main.34184551.css",
+    "static/js/main.da167509.js"
   ]
 }
