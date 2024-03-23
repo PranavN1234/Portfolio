@@ -19,6 +19,7 @@ import farmer from './farmer.avif'
 import chess from './moneychess.avif'
 import portfolio from './portfolioweb.jpeg'
 import scorepred from './scorepred.png'
+import eatalone from './eatalone.png'
 export { dummyimage, myphoto, myimage, bannerimg, transparent, logo, logowhite, whiteback, project1,Resnet, placeholder, elevator, agile, ego, vm, handwritten, handshake,
-farmer, chess, portfolio, scorepred
+farmer, chess, portfolio, scorepred, eatalone
 };

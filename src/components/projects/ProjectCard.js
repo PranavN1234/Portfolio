@@ -1,50 +1,45 @@
-import React from 'react'
-import {BsGithub} from 'react-icons/bs'
-import {FaGlobe} from 'react-icons/fa'
-import {BsFillBookFill} from 'react-icons/bs'
+import React from 'react';
+import { BsGithub, BsFillBookFill } from 'react-icons/bs';
+import { FaGlobe } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-const ProjectCard = ({title, imgsrc, desc, isGlobe, isResearch, gitlink, link}) => {
-  return (
-    <div className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors duration-1000">
-       <div className="w-full h-48 md:h-64 lg:h-56 xl:h-64 2xl:h-80 overflow-hidden rounded-t-lg">
-        <img className="w-full h-90 object-cover group-hover:scale-110 duration-300 cursor-pointer" src={imgsrc} alt="src" />
-       </div>
+const ProjectCard = ({ title, imgsrc, desc, isGlobe, isResearch, gitlink, link }) => {
+    return (
+        <div className="w-full p-4 h-auto rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group transition-colors duration-500">
+            <div className="w-full overflow-hidden rounded-t-lg">
+                <img className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300 cursor-pointer" src={imgsrc} alt={title} />
+            </div>
 
-       <div className="w-full mt-5 flex flex-col gap-6">
-            <div className='flex items-center justify-between'>
-                <h3 className='text-base uppercase text-designColor font-normal'>{title}</h3>
-                <div className="flex gap-2">
-                
-                {isResearch&&
-                    <Link to={gitlink}>
-                        <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <BsFillBookFill />
-              </span>
-                    </Link>
-                    }
-                {!isResearch &&
-                    <Link to={gitlink}>
-                        <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <BsGithub />
-              </span>
-                    </Link>
-                    }
-              {!isResearch && isGlobe && <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <Link to={link}>
-                  <FaGlobe />
-                </Link>
-              </span>}
+            <div className="flex flex-col gap-4 mt-4">
+                <h3 className='text-lg font-semibold text-designColor'>{title}</h3>
+                <p className="text-sm text-gray-400">{desc}</p>
+
+                <div className="flex gap-2 mt-2">
+                    {isResearch && (
+                        <a href={gitlink} target="_blank" rel="noopener noreferrer">
+                            <span className="inline-flex items-center justify-center w-10 h-10 text-lg rounded-full bg-black text-gray-400 hover:text-designColor transition-colors duration-300 cursor-pointer">
+                                <BsFillBookFill />
+                            </span>
+                        </a>
+                    )}
+                    {!isResearch && (
+                        <a href={gitlink} target="_blank" rel="noopener noreferrer">
+                            <span className="inline-flex items-center justify-center w-10 h-10 text-lg rounded-full bg-black text-gray-400 hover:text-designColor transition-colors duration-300 cursor-pointer">
+                                <BsGithub />
+                            </span>
+                        </a>
+                    )}
+                    {!isResearch && isGlobe && (
+                        <a href={link} target="_blank" rel="noopener noreferrer">
+                            <span className="inline-flex items-center justify-center w-10 h-10 text-lg rounded-full bg-black text-gray-400 hover:text-designColor transition-colors duration-300 cursor-pointer">
+                                <FaGlobe />
+                            </span>
+                        </a>
+                    )}
                 </div>
             </div>
+        </div>
+    );
+};
 
-            <div>
-                <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">{desc}</p>
-            </div>
-       </div>
-    </div>
-
-  )
-}
-
-export default ProjectCard
+export default ProjectCard;
