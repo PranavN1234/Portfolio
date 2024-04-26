@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const ProjectCard = ({ title, imgsrc, desc, isGlobe, isResearch, gitlink, link }) => {
     return (
         <div className="w-full p-4 h-auto rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group transition-colors duration-500">
-            <div className="w-full overflow-hidden rounded-t-lg">
-                <img className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300 cursor-pointer" src={imgsrc} alt={title} />
+            <div className="w-full overflow-hidden rounded-t-lg relative" style={{ paddingTop: '100%' }}> {/* Ensures the aspect ratio remains 1:1 */}
+                <img className="absolute top-0 left-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 cursor-pointer" src={imgsrc} alt={title} />
             </div>
 
             <div className="flex flex-col gap-4 mt-4">

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import LeftBanner from './LeftBanner';
-import { bannerimg, transparent } from '../../assets';
+import { bannerimg, transparent, portfolio2} from '../../assets';
 
 function Banner() {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -41,16 +41,20 @@ function Banner() {
 
     const imageSizeStyle = isMobile ? {
         width: '80vw', // Responsive width on mobile devices
-        height: 'auto', // Maintain aspect ratio
+        height: '80vw', // Maintain aspect ratio to make it circular
         zIndex: 10,
         maxWidth: '100%', // Ensure it doesn't exceed container's width
         maxHeight: '100vh', // Prevent image from being taller than the viewport
+        borderRadius: '50%', // Makes the image circular
+        border: '5px solid white', // Adds a white border
     } : {
         width: '500px', // Fixed width for non-mobile devices
-        height: 'auto', // Adjust height automatically to maintain aspect ratio
+        height: '500px', // Adjust height automatically to maintain aspect ratio
         zIndex: 10,
         maxWidth: '100%', // Prevent exceeding container's width
         maxHeight: '680px', // Limit height to prevent overly tall images
+        borderRadius: '50%', // Makes the image circular
+        border: '5px solid white', // Adds a white border
     };
 
 
@@ -72,7 +76,7 @@ function Banner() {
         <section style={bannerStyle} id="home">
             <LeftBanner />
             <div style={imageContainerStyle}>
-                <img style={imageSizeStyle} src={transparent} alt="banner" />
+                <img style={imageSizeStyle} src={portfolio2} alt="banner" />
                 <div style={gradientStyle}></div>
             </div>
         </section>
